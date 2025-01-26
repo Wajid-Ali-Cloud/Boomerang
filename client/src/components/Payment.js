@@ -9,7 +9,7 @@ import api from "../api";
 const CURRENCY = "USD";
 const STRIPE_PUBLISHABLE =
     "pk_test_51K73UMBOwmEi06NGKInoBOHQZH6q5QMvgFA5eWxahjTwpCxe6N8A1yUjeffUbxVWPjNNHBsN0Bjj0sodqsIsSu9n00bJez3NKz";
-const PAYMENT_SERVER_URL = "http://localhost:8000/api/payment/";
+const PAYMENT_SERVER_URL = "https://boomerang-backend-git-main-wajidaliclouds-projects.vercel.app/api/payment/";
 
 //PassengerFirstName, PassengerLastName, PassengerType, PassengerPassportNumber , FlightId ,  ChosenSeat , CabinSeat
 const fromDollarToCent = (amount) => parseInt(amount * 100);
