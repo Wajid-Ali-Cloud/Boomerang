@@ -20,6 +20,9 @@ app.use("/api/flight", flightRoutes);
 app.use("/api/user", userRoutes);
 app.use("/api/reservation", reservationRoutes);
 app.use("/api/payment", paymentRoutes);
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
 
 const port = process.env.PORT;
 
